@@ -1,0 +1,10 @@
+Buy:
+  Diamenty:
+    item: DIAMOND
+    name: Diamencik
+    prize: 64
+    amount: 64
+    durability: 0
+    lore:
+      - Super diament
+      - Koszt - 100

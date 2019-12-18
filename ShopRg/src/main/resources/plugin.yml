@@ -1,0 +1,5 @@
+name: OvShop
+version: 0.1
+main: pl.overr.rgshop.ShopPlugin
+commands:
+  sklep:

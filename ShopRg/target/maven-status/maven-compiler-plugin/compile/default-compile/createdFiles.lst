@@ -1,0 +1,8 @@
+pl\overr\rgshop\utils\ColorUtil.class
+pl\overr\rgshop\listeners\InventoryClickGui.class
+pl\overr\rgshop\listeners\ShopListener.class
+pl\overr\rgshop\utils\ItemStackUtil.class
+pl\overr\rgshop\shop\Shop.class
+pl\overr\rgshop\shop\ShopCommand.class
+pl\overr\rgshop\shop\ShopLoader.class
+pl\overr\rgshop\ShopPlugin.class
