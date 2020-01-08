@@ -27,13 +27,11 @@ public class InventoryClickGui implements Listener {
         if (inventory.getName().equalsIgnoreCase(ColorUtil.fixColor("&aSKLEP"))) {
             if ((event.getCurrentItem() == null || event.getCurrentItem().getType() == Material.AIR) && inventory.getName().equalsIgnoreCase(ColorUtil.fixColor("&ASKLEP"))) {
                 event.setCancelled(true);
-                event.getWhoClicked().sendMessage("xd");
                 return;
             }
                 event.setCancelled(true);
                 Player whoClicked = (Player) event.getWhoClicked();
                 ItemStack itemStack = event.getCurrentItem();
-                whoClicked.sendMessage("przeszlo");
                 shopLoader.checkClickedItemStack(whoClicked, itemStack);
 
             }
